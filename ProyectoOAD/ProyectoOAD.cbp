@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProyectoOAD" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\ProyectoOAD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\ProyectoOAD" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="Expression_Node_.cpp" />
+		<Unit filename="Expression_Node_.h" />
+		<Unit filename="Expression_Node_Cell.cpp" />
+		<Unit filename="Expression_Node_Cell.h" />
+		<Unit filename="Expression_Node_Operation.cpp" />
+		<Unit filename="Expression_Node_Operation.h" />
+		<Unit filename="Expression_Node_constant.cpp" />
+		<Unit filename="Expression_Node_constant.h" />
+		<Unit filename="Nodo.cpp" />
+		<Unit filename="Nodo.h" />
+		<Unit filename="Operations.cpp" />
+		<Unit filename="Operations.h" />
+		<Unit filename="Short_Excel_.cpp" />
+		<Unit filename="Short_Excel_.h" />
+		<Unit filename="Tree_Expression.cpp" />
+		<Unit filename="Tree_Expression.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

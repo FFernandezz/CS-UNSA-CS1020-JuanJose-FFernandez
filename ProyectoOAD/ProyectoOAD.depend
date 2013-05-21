@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1366671057 source:c:\users\usuario\documents\github\cs-unsa-cs1020-juanjose-ffernandez\proyectooad\nodo.cpp
+	"Nodo.h"
+
+1366671609 c:\users\usuario\documents\github\cs-unsa-cs1020-juanjose-ffernandez\proyectooad\nodo.h
+	<string>
+
+1366671276 source:c:\users\usuario\documents\github\cs-unsa-cs1020-juanjose-ffernandez\proyectooad\main.cpp
+
